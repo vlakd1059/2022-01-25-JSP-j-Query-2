@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head> 
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="moveImgStyle.CSS" />
-  </head>
-  <body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>Document</title> 
+    <script src="jquery-3.6.0.min.js"></script> 
+    <link rel="stylesheet" href="moveImgStyle.CSS" /> 
+  </head> 
+  <body> 
     <div id="bg">
       <img src="KakaoTalk_20220125_103023249.png" />
       <button class="btn left" onclick="leftMove()">LEFT</button>
@@ -16,10 +16,10 @@
     </div>
     <script>
       let pos = 0;
-      function leftMove() {
-        if (pos < 1200) {
-          pos += 100;
-        }
+      function leftMove() { 
+        if (pos < 1200) { 
+          pos += 100; 
+        } 
         $("img").css("right", pos + "px");
       }
       function rightMove() {
